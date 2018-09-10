@@ -20,3 +20,8 @@ During early experiments we should figure out if we want to support styled-syste
 - Tag input
 - Tooltip
 - Toast
+- Text
+
+# Types
+
+We want to use [genTypeScript](https://github.com/cristianoc/genTypeScript) and [genFlow](https://github.com/cristianoc/genFlow) to generate types for each component.
