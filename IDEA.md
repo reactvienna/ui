@@ -9,6 +9,10 @@ Further Resources
 
 During early experiments we should figure out if we want to support styled-system or opt in for a Reach UI approach where you can use all sorts of CSS in JS libraries.
 
+# Types
+
+We want to use [genTypeScript](https://github.com/cristianoc/genTypeScript) and [genFlow](https://github.com/cristianoc/genFlow) to generate types for each component.
+
 # Planned Components
 
 - Arrow
@@ -21,7 +25,3 @@ During early experiments we should figure out if we want to support styled-syste
 - Tooltip
 - Toast
 - Text
-
-# Types
-
-We want to use [genTypeScript](https://github.com/cristianoc/genTypeScript) and [genFlow](https://github.com/cristianoc/genFlow) to generate types for each component.
