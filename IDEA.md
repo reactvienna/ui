@@ -13,6 +13,10 @@ During early experiments we should figure out if we want to support styled-syste
 
 We want to use [genTypeScript](https://github.com/cristianoc/genTypeScript) and [genFlow](https://github.com/cristianoc/genFlow) to generate types for each component.
 
+# Accessability (a11y)
+
+Every component should be accessible.
+
 # Planned Components
 
 - Arrow
