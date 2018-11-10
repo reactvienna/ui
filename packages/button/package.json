@@ -1,13 +1,6 @@
 {
   "name": "button",
   "version": "0.0.0",
-  "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world",
-    "webpack": "webpack -w",
-    "webpack:production": "NODE_ENV=production webpack"
-  },
   "keywords": [
     "UI"
   ],
@@ -18,12 +11,5 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "reason-react": ">=0.4.0"
-  },
-  "devDependencies": {
-    "bs-platform": "^4.0.6",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
   }
 }
