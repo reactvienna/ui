@@ -1,0 +1,12 @@
+# ide
+.idea
+
+# dependencies
+node_modules
+
+# BuckleScript output
+**/lib/bs/**
+.merlin
+*.bs.js
+*.re.js
+.bsb.lock
