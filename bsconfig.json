@@ -24,5 +24,12 @@
   "suffix": ".bs.js",
   "bs-dependencies": ["reason-react", "bs-css"],
   "namespace": true,
-  "refmt": 3
+  "refmt": 3,
+  "gentypeconfig": {
+    "language": "typescript",
+    "debug": {
+      "all": false,
+      "basic": true
+    }
+  }
 }

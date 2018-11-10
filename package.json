@@ -6,12 +6,13 @@
   ],
   "scripts": {
     "start:bs": "bsb -make-world -w",
-    "build:bs": "bsb -make-world",
+    "build:bs": "export BS_CMT_POST_PROCESS_CMD=\"gentype\" && bsb -make-world",
     "clean:bs": "bsb -clean-world",
     "start:playground": "cd packages/playground && npx webpack-dev-server"
   },
   "devDependencies": {
     "bs-platform": "^4.0.7",
+    "gentype": "^1.0.0",
     "lerna": "^3.3.0"
   }
 }
