@@ -1,15 +1,9 @@
 {
-  "name": "ui",
-  "sources": [
-    {
-      "dir": "packages/playground/src",
-      "subdirs": true
-    },
-    {
-      "dir": "packages/button/src",
-      "subdirs": true
-    }
-  ],
+  "name": "button",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
   "reason": {
     "react-jsx": 2
   },

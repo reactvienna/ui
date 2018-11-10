@@ -2,5 +2,9 @@ let component = ReasonReact.statelessComponent("Home");
 
 let make = _children => {
   ...component,
-  render: self => <div> {ReasonReact.string('Hello World!')} </div>,
+  render: _self =>
+    <div>
+      <h1> {ReasonReact.string("UI Playground")} </h1>
+      <div> <Button /> </div>
+    </div>,
 };

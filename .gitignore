@@ -5,7 +5,7 @@
 node_modules
 
 # BuckleScript output
-lib/bs
+**/lib/bs/**
 .merlin
 *.bs.js
 *.re.js

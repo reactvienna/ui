@@ -5,9 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "compile": "lerna run compile",
-    "clean": "lerna run clean",
-    "start": "bsb -make-world -w",
+    "start:bs": "bsb -make-world -w",
+    "build:bs": "bsb -make-world",
+    "clean:bs": "bsb -clean-world",
     "start:playground": "cd packages/playground && npx webpack-dev-server"
   },
   "devDependencies": {
