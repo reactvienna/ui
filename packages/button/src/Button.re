@@ -30,6 +30,7 @@ module Styles = {
     ]);
 };
 
+[@genType]
 let make = children => {
   ...component,
   render: _self => <button className={Styles.button()}> ...children </button>,

@@ -2735,6 +2735,11 @@ genfun@^5.0.0:
   resolved "https://registry.yarnpkg.com/genfun/-/genfun-5.0.0.tgz#9dd9710a06900a5c4a5bf57aca5da4e52fe76537"
   integrity sha512-KGDOARWVga7+rnB3z9Sd2Letx515owfk0hSxHGuqjANb1M+x2bGZGqHLiozPsYMdM2OubeMni/Hpwmjq6qIUhA==
 
+gentype@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-1.0.0.tgz#6f6b91a08e878711cde46eaecda0f287deae65b6"
+  integrity sha512-2ta+Ei8V66Ghx3q+RA20KtXrhtKeVtAB7OZ75nDq2tjUbnqGrVQMb3BkWm4DQt0Y00M64uEIeXLTGdGBr4F5cg==
+
 get-caller-file@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
