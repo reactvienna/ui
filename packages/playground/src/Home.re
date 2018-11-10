@@ -8,5 +8,6 @@ let make = _children => {
     <div>
       <h1> "UI Playground"->s </h1>
       <div> <Button> "Save"->s </Button> </div>
+      <div> <Switch /> </div>
     </div>,
 };

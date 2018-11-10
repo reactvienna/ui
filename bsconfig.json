@@ -8,6 +8,10 @@
     {
       "dir": "packages/button/src",
       "subdirs": true
+    },
+    {
+      "dir": "packages/switch/src",
+      "subdirs": true
     }
   ],
   "reason": {
