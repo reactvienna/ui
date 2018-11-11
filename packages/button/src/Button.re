@@ -50,7 +50,7 @@ module Styles = {
       ]),
       /* NOTE using important due hover being injected after active */
       active([
-        important(background(hex("595ab9"))),
+        important(background(hex("6364d2"))),
         important(color(hex("fcfcfc"))),
         important(transform(translateY(px(0)))),
         important(
