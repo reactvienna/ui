@@ -12,7 +12,7 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": ["reason-react", "bs-css"],
+  "bs-dependencies": ["reason-react", "@minima.app/re-css", "bs-emotion"],
   "namespace": true,
   "refmt": 3
 }

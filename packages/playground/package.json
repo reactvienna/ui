@@ -14,7 +14,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bs-css": "^7.4.0",
+    "@minima.app/re-css": "^0.0.5",
+    "bs-emotion": "^0.0.6",
     "gentype": "^1.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
