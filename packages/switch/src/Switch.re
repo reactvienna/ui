@@ -1,4 +1,4 @@
-let component = ReasonReact.statelessComponent("Button");
+let component = ReasonReact.statelessComponent(__MODULE__);
 
 let s = ReasonReact.string;
 
