@@ -624,7 +624,7 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@minima.app/re-css@^0.0.5":
+"@minima.app/re-css@0.0.5":
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@minima.app/re-css/-/re-css-0.0.5.tgz#2b0db6471954311c4f9ccb2076e2cd3a924c5ce2"
   integrity sha512-U8CdzPcOpijDwxcGvRP4d3MeeCLxV9Meia68nBgdb4qrdAnnd7jmeDqH9qoekGjq/TmW4Qres6pl/xJHFj8VJA==
@@ -1288,11 +1288,12 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-bs-emotion@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/bs-emotion/-/bs-emotion-0.0.6.tgz#12c9546a4e2de7f57a7d84a48058bd108abc1706"
-  integrity sha512-4SrYlu2kv8ckYl02xKD1eGenuwmpN0jGafheboWuzqPoef31f1Uoshv/18iAUmM1h+gCxo9RsrnZjtcD0nOxqA==
+bs-emotion@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/bs-emotion/-/bs-emotion-0.0.7.tgz#c5376beea5f1ddd3c3c6dbffae4018056eae8b69"
+  integrity sha512-iWXCR027Uyg4/8Fl32YyRiajobGkMLLHumLfloSLqI1KmN6ZWYOMGG+x3eq37gbM/WHman6IPPDhbJS1YePGVA==
   dependencies:
+    "@minima.app/re-css" "0.0.5"
     emotion "9.2.12"
 
 bs-platform@^4.0.6, bs-platform@^4.0.7:

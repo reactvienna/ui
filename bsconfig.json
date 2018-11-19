@@ -22,7 +22,7 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": ["reason-react", "@minima.app/re-css", "bs-emotion"],
+  "bs-dependencies": ["reason-react", "bs-emotion"],
   "namespace": true,
   "refmt": 3,
   "gentypeconfig": {
