@@ -11,9 +11,14 @@ During early experiments we should figure out if we want to support styled-syste
 
 # Types
 
-We want to use [genTypeScript](https://github.com/cristianoc/genTypeScript) and [genFlow](https://github.com/cristianoc/genFlow) to generate types for each component.
+We want to use [genType](https://github.com/cristianoc/genType) to generate TypeScript, Flow and an untyped version for each component.
 
-# Accessability (a11y)
+# Environment 
+
+- Desktop
+- Mobile
+
+## Accessability (a11y)
 
 Every component should be accessible.
 
